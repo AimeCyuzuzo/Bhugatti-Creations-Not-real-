@@ -1,0 +1,436 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: verdana;
+  
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer !important;
+  color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/* GLOBAL STYLES */
+
+.green{
+  color: #8CC63E !important;
+}
+.strongGreen{
+  color: #376800;
+}
+.red{
+  color: red !important;
+}
+.white{
+  color: white !important;
+}
+.blue{
+  color: blue !important;
+}
+
+
+
+
+/*END OF GLOBAL STYLES*/
+
+
+
+#headerNavigation{
+  z-index: 999;
+  margin: 0
+}
+header{
+  width: 100%;
+  margin: 0 0;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+}
+header nav{
+  display: flex;
+  justify-content: space-around;
+}
+.headerSectionOne{
+  font-size: 25px;
+  position: relative;
+  font-weight: bolder;
+}
+.headerSectionTwo ul{
+  list-style-type: none;
+}
+.headerSectionTwo ul li{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.headerSectionTwo ul li a{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.headerSectionTwo ul li a:hover{
+  color: #8CC63E;
+}
+.menuIcon{
+  font-size: 20px;
+  transition: 0.2s;
+  color: white;
+}
+.menuIcon:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+  color: #8CC63E;
+}
+.stickyMemberRequest{
+  position: fixed;
+  right: 1%;
+  top: 17%;
+  font-weight: bolder;
+  font-size: 15px;
+  border: 3px solid #8CC63E;
+  padding: 3px;
+  background-color: white;
+  color: #8CC63E;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* END OF HEADER STYLING */
+
+/* HOME BACKGROUND VIDEO AND IT'S CONTENT */
+
+.videoBackgroundDivision{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: -999;
+}
+.videoGradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+  background: #8bc63e3f;
+}
+.videoBackgroundDivision video{
+  width: 100%;
+}
+.videoTopContent{
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-family: cambria;
+}
+.videoTopContent section{
+  margin: auto;
+  display: table;
+  text-align: center;
+}
+.videoTopContent section h3{
+  font-size: xxx-large;
+  text-transform: uppercase;
+}
+.videoTopContent section p{
+  font-family: cursive;
+  text-transform: uppercase;
+}
+.videoTopContent section div a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10% 30%;
+  background: #8CC63E;
+  display: table;
+  margin: 10% auto;
+  padding: 10px;
+  transition: 0.2s;
+}
+.videoTopContent section div a:hover{
+  color: #8CC63E;
+  background: white;
+}
+
+
+
+/* END OF HOME BACKGROUND VIDEO AND IT'S CONTENT */
+
+
+
+
+/*HOME NEXT CONTENT */
+
+
+
+.nextHomeContent{
+  /* grid-auto-rows: min-content; */
+  position: absolute;
+  top: 100%;
+}
+
+
+
+
+/*HOME NEXT CONTENT */
+
+
+
+/* ABOUT */
+
+
+.aboutDivision{
+  margin: 5% 2%;
+  background: url('../public/svg/bgdrawingone.svg');
+  background-repeat: no-repeat;
+}
+.bgdrawingone{
+  position: absolute;
+  z-index: -9999;
+  right: -10%;
+  top: -6%;
+}
+.aboutSections{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutSectionOne{
+  width: 70%;
+}
+.aboutSectionTwo{
+  width: 30%;
+}
+.aboutSectionTwo img{
+  width: 100%;
+}
+
+
+
+/*END OF ABOUT*/
+
+
+
+/*ADMINISTRATION*/
+
+
+.administrationBoxes{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1%;
+  justify-content: space-around;
+}
+.singleAdminBox{
+  width: 45%;
+  box-shadow: 3px 3px 5px black;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.singleAdminBox .adminImageSection {
+  position: relative;
+}
+.singleAdminBox .adminImageSection img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/*END OF ADMINISTRATION*/
+
+
+
+
+
+
+/*ISOMO QUESTIONS */
+
+
+.questions{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+.singleQuestion{
+  border: 1px solid rgb(209, 209, 209);
+  box-shadow: 3px 3px 10px black;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  margin: 0 auto;
+}
+.singleQuestion h3{
+  color: #376800;
+  padding-bottom: 5%;
+  border-bottom: 2px solid black;
+}
+
+
+/*END OF ISOMO QUESTIONS */
+
+/*LATEST POSTS*/
+
+
+.eventsBoxes{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.singleEvent{
+  width: 75%;
+  box-shadow: 3px 3px 5px black;
+  border-radius: 10px;
+  object-fit: contain;
+  padding: 1%;
+  margin: 1% auto;
+}
+.eventContent{
+  display: flex;
+  flex-wrap: wrap;
+}
+.eventContentOne{
+  width: 75%;
+  margin: 0 2%;
+}
+.eventContentOne small{
+  color: gray;
+}
+.eventContentTwo{
+  width: 20%;
+}
+.eventContentTwo img{
+  width: 100%;
+}
+
+
+
+/*END OF LATEST POSTS*/
+
+
+
+
+/* FOOTER */
+
+
+footer{
+  margin-top: 5%;
+  width: 100%;
+  padding: 1% 5%;
+}
+#mainFooterDiv{
+  display: flex;
+  justify-content: space-between;
+}
+#footerNameContainer{
+  font-size: 30px;
+  font-family: cambria;
+}
+
+
+
+/*END OF FOOTER STYLING */
+
+
+/*BLOG DETAILS */
+
+
+/* .blogParent{
+  background: #8bc63e4c;
+} */
+.navBackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 11%;
+  background: black;
+  z-index: -999;
+}
+.blogParent .headers{
+  text-align: center;
+}
+.blogParent .headers h2{
+  font-family: cambria;
+  font-size: xx-large;
+}
+.blogParent .headers small{
+  color: #376800;
+  margin-top: -5%;
+}
+.blogParent .headers small i{
+  margin-top: -5%;
+}
+.blogContent{
+  padding: 0 5%;
+}
+.blogParent img{
+  width: 100%;
+}
+.blogContentFlexOne{
+  display: flex;
+  flex-wrap: wrap;
+}
+.blogContentFlexOne p{
+  width: 70%;
+  justify-content: space-between;
+}
+.blogContentFlexOne img{
+  width: 25%;
+}
+.twoImages{
+  display: flex;
+}
+.twoImages img{
+  width: 50%;
+}
+.memoriesImages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.memoriesImages img{
+  width: 40%;
+  margin: 2% 0;
+}
+.memoriesVideos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.memoriesVideos video{
+  width: 30%;
+  margin: 0 3%;
+  height: 100%;
+}
+
+
+
+/*END OF BLOG DETAILS */
