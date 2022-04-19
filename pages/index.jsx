@@ -16,7 +16,7 @@ export default function Home() {
           
           {/* <p>This is a program that was created by Isomo Scholars with the intentions of expanding charity and humanitarian activities</p> */}
           <p>{/* This the world of everyone, no one deserves a bad experience in it.  */}Let's work together and make the world a better place.</p>
-          <h3><span className="green">S</span>treet <span className="green">B</span>ridge <span className="green">F</span>oundation</h3>
+          <h3><span className="green">S</span>treet <span className="green">B</span><span className="white">ridge</span> <span className="green">F</span>oundation</h3>
           <div>
             <a href='#about'>Learn more...</a>
           </div>
@@ -25,11 +25,11 @@ export default function Home() {
       
       <div className="nextHomeContent">
         <div className="aboutDivision" id='about'>
-          <h2 className='strongGreen'>About</h2>
+          <h1 className='green'>About</h1>
           <div className="aboutSections">
             <section className='aboutSectionOne'>
               <p>
-                <span className="strongGreen">S</span>treet <span className="strongGreen">B</span>ridge <span className="green">F</span><span className="white">oundation</span> is 
+                <span className="strongGreen big">S</span>treet <span className="strongGreen big">B</span>ridge <span className="strongGreen big">F</span><span>oundation</span> is 
                 a program that was found in 2022 by Isomo scholars. It was created basically to contribute to the expansion of humanitarianism through 
                 encouraging the youth to engage in humanitarian activities. <br /> <br />
                 <span className="strongGreen">
@@ -40,6 +40,7 @@ export default function Home() {
               <p>
                 All this is done by encouraging the youth to advise each other and work in groups in order to achieve something big.
               </p>
+              <p className='goToMainAbout'><Link href="/about"><a>Learn more</a></Link></p>
             </section>
             <section className='aboutSectionTwo'>
               <img src="/heartofgratitude/IMG_3885.JPG" alt="" />
@@ -73,7 +74,9 @@ export default function Home() {
           <div className="administrationBoxes">
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+                <div className="imageContainer">
+                  <Image src="/admins/user2.png" alt="Image" height="100%" width="100%" />
+                </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Happy Herman Niyorurema</h4>
@@ -87,7 +90,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+              <div className="imageContainer">
+                <Image src="/admins/user2.png" alt="Image" height="100%" width="100%" />
+              </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Mutuyimana Dadyine</h4>
@@ -100,7 +105,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+                <div className="imageContainer">
+                  <Image src="/admins/user2.png" alt="Image" height="100%" width="100%" />
+                </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Eloi Inema</h4>
@@ -113,7 +120,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+                <div className="imageContainer">
+                  <Image src="/admins/gikundiroelvira.jpg" alt="Image" height="100%" width="100%" />
+                </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Gikundiro Elvira</h4>
@@ -126,7 +135,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+              <div className="imageContainer">
+                <Image src="/admins/user.png" alt="Image" height="100%" width="100%" />
+              </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Patmos Acher Mpakaniye</h4>
@@ -139,7 +150,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+              <div className="imageContainer">
+                <Image src="/admins/user2.png" alt="Image" height="100%" width="100%" />
+              </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Edison Uwamungu</h4>
@@ -152,7 +165,9 @@ export default function Home() {
             </div>
             <div className="singleAdminBox">
               <section className='adminImageSection'>
-                <img src="#" alt="Image" />
+              <div className="imageContainer">
+              <Image src="/admins/user.png" alt="Image" height="100%" width="100%" />
+              </div>
               </section>
               <section className='adminContentSection'>
                 <h4 className="adminName">Keza Kayihura Herta</h4>
@@ -163,18 +178,25 @@ export default function Home() {
                 </div>
               </section>
             </div>
+            <div className="singleAdminBox">
+              <section className='adminImageSection'>
+              <div className="imageContainer">
+                <Image src="/admins/bagaboallain.jpg" alt="Image" height="100%" width="100%" />
+              </div>
+              </section>
+              <section className='adminContentSection'>
+                <h4 className="adminName">Bagabo Allain</h4>
+                <p><i>Assistant Projects Manager</i></p>
+                <div>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>kezaherta06@gmail.com</i></a></small>
+                  <small>Rwanda - +250784104771</small>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
         <div className="latestEvents">
           <h2 className="strongGreen" style={{
-            borderBottom:"3px solid black",
-            borderRadius:"20px",
-            margin:"auto",
-            fontSize:"30px",
-            display:"block",
-            textAlign:"left",
-            display:"table",
-            padding:"5px"
           }}>Latest Events</h2>
           <div className="eventsBoxes">
             <Link href="/posts/:id" style={{cursor:"pointer"}}>
@@ -189,7 +211,9 @@ export default function Home() {
                       <small><i>Uploaded on 20 Marth 2020</i></small>
                     </section>
                     <section className='eventContentTwo'>
-                      <img src="/communitywork/recroped.jpeg" alt="Event image" />
+                      <div className="eventImageContainer">
+                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
+                      </div>
                     </section>
                   </div>
                 </div>
@@ -207,7 +231,9 @@ export default function Home() {
                       <small><i>Uploaded on 20 Marth 2020</i></small>
                     </section>
                     <section className='eventContentTwo'>
-                      <img src="/communitywork/recroped.jpeg" alt="Event image" />
+                      <div className="eventImageContainer">
+                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
+                      </div>
                     </section>
                   </div>
                 </div>
