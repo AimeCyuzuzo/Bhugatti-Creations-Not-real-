@@ -520,11 +520,19 @@ footer{
   }
   .eventImageContainer{
     margin-top: 0;
-    background: blue;
+    margin-left: 0;
+    transform: translate(0);
   }
   .eventImageContainer img{
     height: 200px !important;
     width: inherit;  
+  }
+  .questions{
+    justify-content: space-around;
+  }
+  .singleQuestion{
+    width: 70%;
+    margin: 1% 0;
   }
 }
 
