@@ -446,6 +446,14 @@ footer{
 footer a{
   color: rgb(195, 195, 195);
   font-weight: lighter;
+  position: relative;
+}
+.latestnews a::before, .usefullinks a::before{
+  content: url('../public/svg/footerlistbefore.svg');
+  position: absolute;
+  left: -10%;
+  top: 1%;
+  width: 20px;
 }
 
 

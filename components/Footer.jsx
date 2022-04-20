@@ -13,14 +13,14 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="latestnews">
                     <h4>Latest news</h4>
                     <span className="footerHeadingUnderline"></span>
                 </section>
                 <section>
                     <h4>Useful links</h4>
                     <span className="footerHeadingUnderline"></span>
-                    <ul>
+                    <ul className="usefullinks">
                         <li>
                             <a href="https://www.bridge2rwanda.org/isomo-academy/isomo-application" rel="noreferrer" target="_blank">Apply to Isomo Academy</a>
                         </li>
