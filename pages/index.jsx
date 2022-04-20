@@ -34,7 +34,7 @@ export default function Home() {
                 encouraging the youth to engage in humanitarian activities. <br /> <br />
                 <span className="strongGreen">
                   &quot;A person who has much has to share with another one with nothing or less, for them to create a relationship. Who knows? It might be a 
-                  reverse tommorrow! And even if it wouldn&apos;t, help each other because it's the right thing to do.&quot;-- <i style={{color:"gray"}}>Edison, an Isomo Scholar who got admitted in 2021</i>
+                  reverse tommorrow! And even if it wouldn&apos;t, help each other because it&apos;s the right thing to do.&quot;-- <i style={{color:"gray"}}>Edison, an Isomo Scholar who got admitted in 2021</i>
                 </span>
               </p>
               <p>
