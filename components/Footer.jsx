@@ -4,7 +4,7 @@ const Footer = () => {
             <div id="mainFooterDiv">
                 <section>
                     <div id="footerNameContainer">
-                        <span className="green">S</span>treet <span className="green">B</span>ridge <br /> <span className="green">F</span>oundation
+                        <span className="green">S</span><span className="white">treet</span> <span className="green">B</span><span className="white">ridge</span> <br /> <span className="green">F</span><span className="white">oundation</span>
                     </div>
                     <div>
                         <p className="gray">SBF Copyright &copy;. All Rights Reserved</p>
@@ -14,13 +14,20 @@ const Footer = () => {
                     </div>
                 </section>
                 <section>
-                    <img src="/svg/instagram.png" alt="" />
-                    <img src="/svg/facebook.png" alt="" />
-                    <img src="/svg/tiktok.png" alt="" />
-                    <img src="/svg/whatsapp.png" alt="" />
+                    <h4>Latest news</h4>
+                    <span className="footerHeadingUnderline"></span>
                 </section>
                 <section>
-                    <img src="/svg/bigLogo.svg" alt="Big Footer Logo" /> <br />
+                    <h4>Useful links</h4>
+                    <span className="footerHeadingUnderline"></span>
+                    <ul>
+                        <li>
+                            <a href="https://www.bridge2rwanda.org/isomo-academy/isomo-application" rel="noreferrer" target="_blank">Apply to Isomo Academy</a>
+                        </li>
+                        <li>
+                        <a href="https://bridge2rwanda.org/careers/#the-bridge" rel="noreferrer" target="_blank">Career opportunities</a>
+                        </li>
+                    </ul>
                     <small className="gray">Created by <a href="https://aime-cyuzuzo.vercel.app" rel="noreferrer" target="_blank" style={{textDecoration:"underline"}}>aimecyuzuzo5@gmail.com</a></small>
                 </section>
             </div>

@@ -254,10 +254,28 @@ export default function Home() {
           </div>
         </div>
         <div className="joinUs">
-          <h3>Do you need to join us and change the world together?</h3>
+          <h2>Do you need to join us and change the world together?</h2>
           <div className="joinForm">
             <form action="#">
-              
+              <div className="input-area">
+                <label htmlFor="senderName">Names</label>
+                <input type="text" id='senderName'/>
+              </div>
+              <div className="input-area">
+                <label htmlFor="senderEmailNumber">Email or Phone number</label>
+                <input type="text" id='senderEmailNumber'/>
+              </div>
+              <div className="input-area">
+                <label htmlFor="senderSubject">Subject</label>
+                <input type="text" id='senderSubject' />
+              </div>
+              <div className="input-area">
+                <label htmlFor="senderMessage">Message</label>
+                <textarea id="senderMessage" className='materialize-textarea' cols="30" rows="10"></textarea>
+              </div>
+              <div>
+                <button>Send</button>
+              </div>
             </form>
           </div>
         </div>

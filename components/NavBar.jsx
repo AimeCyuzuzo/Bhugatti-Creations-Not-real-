@@ -12,7 +12,7 @@ const NavBar = () => {
                         <ul>
                             <li> <Link href="/">Home</Link> </li>
                             <li> <Link href="#about">About</Link> </li>
-                            <li> <Link href="#">Contact</Link> </li>
+                            <li> <Link href="#"><a>Events</a></Link> </li>
                             {/* <li> <Link href="#">ADMINISTRATION</Link> </li> */}
                             <li>
                                 <div className="menuIcon">

@@ -6,6 +6,7 @@ body {
   font-family: verdana;
   background: rgb(22, 26, 38);
   background: white;
+  background: rgba(28, 227, 167, 0.063);
 }
 a {
   text-decoration: none;
@@ -356,6 +357,9 @@ header nav{
 .latestEvents{
   padding: 5% 0;
   background: rgb(246, 248, 255);
+  background: url('../public/communitywork/recroped.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 .latestEvents h2{
   margin: 3% auto;
@@ -419,6 +423,8 @@ footer{
     padding: 1% 5%;/* 
     border: 1px solid rgb(199, 239, 227); */
   box-shadow: 3px 3px 20px rgb(22, 26, 38);
+  background: rgb(22, 26, 38);
+  color: white;
 }
 #mainFooterDiv{
   display: flex;
@@ -427,6 +433,14 @@ footer{
 #footerNameContainer{
   font-size: 30px;
   font-family: cambria;
+}
+.footerHeadingUnderline{
+  width: 50px;
+  height: 5px;
+  background: rgb(28, 227, 168);
+  display: block;
+  border-radius: 10px;
+  margin-top: -15px;
 }
 
 
@@ -518,8 +532,24 @@ footer{
 
 
 .joinUs{
-  background: url('../public/communitywork/recroped.jpeg');
-  
+  padding: 5% 5%;
+}
+.joinUs button{
+  width: 80%;
+  margin: auto;
+  display: table;
+  font-size: 20px;
+  background: rgb(28, 227, 168);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  transition: 0.2s;
+}
+.joinUs button:hover{
+  background: rgb(22, 26, 38);
+  transform: scale(1.1);
 }
 
 
@@ -568,3 +598,29 @@ footer{
 
 
 /*END OF MEDIA QUERIES*/
+
+
+/*MATERIALIZE COPY*/
+
+
+
+.input-field input {
+  height: 100%;
+  border: none;
+  padding-left: 5px !important;
+}
+
+nav .input-field label {
+  top: 0;
+  left: 0;
+}
+
+nav .input-field label i {
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+nav .input-field label.active i {
+  color: #fff;
+}
