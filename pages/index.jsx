@@ -15,7 +15,7 @@ export default function Home() {
         <section>
           
           {/* <p>This is a program that was created by Isomo Scholars with the intentions of expanding charity and humanitarian activities</p> */}
-          <p>{/* This the world of everyone, no one deserves a bad experience in it.  */}Let's work together and make the world a better place.</p>
+          <p>{/* This the world of everyone, no one deserves a bad experience in it.  */}Let&apos;s work together and make the world a better place.</p>
           <h3><span className="green">S</span>treet <span className="green">B</span><span className="white">ridge</span> <span className="green">F</span>oundation</h3>
           <div>
             <a href='#about'>Learn more...</a>
@@ -33,8 +33,8 @@ export default function Home() {
                 a program that was found in 2022 by Isomo scholars. It was created basically to contribute to the expansion of humanitarianism through 
                 encouraging the youth to engage in humanitarian activities. <br /> <br />
                 <span className="strongGreen">
-                  "A person who has much has to share with another one with nothing or less, for them to create a relationship. Who knows? It might be a 
-                  reverse tommorrow! And even if it wouldn't, help each other because it's the right thing to do."-- <i style={{color:"gray"}}>Edison, an Isomo Scholar who got admitted in 2021</i>
+                  &quot;A person who has much has to share with another one with nothing or less, for them to create a relationship. Who knows? It might be a 
+                  reverse tommorrow! And even if it wouldn&apos;t, help each other because it's the right thing to do.&quot;-- <i style={{color:"gray"}}>Edison, an Isomo Scholar who got admitted in 2021</i>
                 </span>
               </p>
               <p>
