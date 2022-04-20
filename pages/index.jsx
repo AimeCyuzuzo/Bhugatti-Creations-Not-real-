@@ -253,6 +253,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="joinUs">
+          <h3>Do you need to join us and change the world together?</h3>
+          <div className="joinForm">
+            <form action="#">
+              
+            </form>
+          </div>
+        </div>
         <Footer />
       </div>
     </div>

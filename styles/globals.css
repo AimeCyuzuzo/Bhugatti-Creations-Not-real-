@@ -13,6 +13,7 @@ a {
   color: inherit;
   color: #1CE3A8;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -43,6 +44,9 @@ html{
 }
 .big{
   transform: scale(2) !important;
+}
+.bold{
+  font-weight: bolder;
 }
 
 
@@ -506,6 +510,25 @@ footer{
 
 
 /*END OF BLOG DETAILS */
+
+
+
+/*JOINING REQUEST*/
+
+
+
+.joinUs{
+  background: url('../public/communitywork/recroped.jpeg');
+  
+}
+
+
+
+
+
+/*END OF JOINING REQUEST*/
+
+
 
 
 
