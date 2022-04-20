@@ -59,8 +59,8 @@ export default function Home() {
                   <i>If you are a senior four or level three students, <a href="#" style={{color:"red"}}>click here</a> to check if the application is 
                   open, and apply for this amazing program program.</i>
                 </p>
-                <a className="blue" href="#" target="_blank"><i style={{textDecoration:"underline"}}>Learn more</i></a>
-                <p className="note">Isomo Academy is a program managed by <a href="https://www.bridge2rwanda.org" target="_blank" style={{textDecoration:"underline"}} className="blue">Bridge2Rwanda</a></p>
+                <a className="blue" href="#" rel="noreferrer" target="_blank"><i style={{textDecoration:"underline"}}>Learn more</i></a>
+                <p className="note">Isomo Academy is a program managed by <a href="https://www.bridge2rwanda.org" rel="noreferrer" target="_blank" style={{textDecoration:"underline"}} className="blue">Bridge2Rwanda</a></p>
             </div>
             <div className="singleQuestion">
               <h3><i>What is Bridge2Rwanda?</i></h3>
@@ -82,7 +82,7 @@ export default function Home() {
                 <h4 className="adminName">Happy Herman Niyorurema</h4>
                 <p><i>Managing Director</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>niyorurema1@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>niyorurema1@gmail.com</i></a></small>
                   <small>Rwanda - +250789143105</small>
                 </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
                 <h4 className="adminName">Mutuyimana Dadyine</h4>
                 <p><i>Chairperson</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>isarodadyne@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>isarodadyne@gmail.com</i></a></small>
                   <small>Rwanda - +25078 <span className="red">Here br0</span></small>
                 </div>
               </section>
@@ -113,7 +113,7 @@ export default function Home() {
                 <h4 className="adminName">Eloi Inema</h4>
                 <p><i>Secretary General</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>eloiinem@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>eloiinem@gmail.com</i></a></small>
                   <small>Rwanda - +250732753600</small>
                 </div>
               </section>
@@ -128,7 +128,7 @@ export default function Home() {
                 <h4 className="adminName">Gikundiro Elvira</h4>
                 <p><i>Finance Officer</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>gikelvira@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>gikelvira@gmail.com</i></a></small>
                   <small>Rwanda - +250780898928</small>
                 </div>
               </section>
@@ -143,7 +143,7 @@ export default function Home() {
                 <h4 className="adminName">Patmos Acher Mpakaniye</h4>
                 <p><i>Public Relations Officer</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>achaire07@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>achaire07@gmail.com</i></a></small>
                   <small>Rwanda - +25073866666304</small>
                 </div>
               </section>
@@ -158,7 +158,7 @@ export default function Home() {
                 <h4 className="adminName">Edison Uwamungu</h4>
                 <p><i>IT Manager</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>iamedisonu250@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>iamedisonu250@gmail.com</i></a></small>
                   <small>Rwanda - +250785971157</small>
                 </div>
               </section>
@@ -173,7 +173,7 @@ export default function Home() {
                 <h4 className="adminName">Keza Kayihura Herta</h4>
                 <p><i>Projects Manager</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>kezaherta06@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>kezaherta06@gmail.com</i></a></small>
                   <small>Rwanda - +250790564546</small>
                 </div>
               </section>
@@ -188,7 +188,7 @@ export default function Home() {
                 <h4 className="adminName">Bagabo Allain</h4>
                 <p><i>Assistant Projects Manager</i></p>
                 <div>
-                  <small><a href="mailto:aimecyuzuzo5@gmail.com" target="_blank"><i>kezaherta06@gmail.com</i></a></small>
+                  <small><a href="mailto:aimecyuzuzo5@gmail.com" rel="noreferrer" target="_blank"><i>kezaherta06@gmail.com</i></a></small>
                   <small>Rwanda - +250784104771</small>
                 </div>
               </section>

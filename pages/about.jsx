@@ -50,7 +50,7 @@ const About = () => {
                         or not, but rather, why they are going there. This calls for a fastidious attention on the realm
                         cause of the issue, not the effects of the issue. <br />
                         Come to think of it, many street kids have families, and while taking a decision to leave their
-                        families and go to the street should be seen as a strong psychological decision, it's still our
+                        families and go to the street should be seen as a strong psychological decision, it&apos;s still our
                         role as the future change makers to highlight the conscious reasons behind that decision.
                         According to the Street Bridge Foundation’s report in December 2021; Erick Sebagabo was
                         examined why he was on the street but responded by stressing on domestic problems; His
@@ -77,7 +77,7 @@ const About = () => {
                         up some small revenue streams for them, like small shops, some animals to rare etc.
                         With that source of income, we believe they will be able to sustain life at home, food security,
                         and even help us to help the kid in his or her next journey of transformation. <br />
-                        But as a foundation, that's not enough. We do believe that that kid still needs your help,
+                        But as a foundation, that&apos;s not enough. We do believe that that kid still needs your help,
                         guidance and even company through the trajectory of change. Thus, we take an extra mile to
                         make regular follow ups so as to highlight the degree of impact, and how further to help the
                         kid develop in life. <br />
@@ -110,7 +110,7 @@ const About = () => {
                         compatibility in a drug free society. But I believe the people selling those drugs are more
                         dangerous than the drugs themselves. <br />
                         Involvement of the state. The proposal part of this analysis focuses on the role played by the
-                        Street Bridge Foundation. However, the foundation alone can't manage the whole thing, free
+                        Street Bridge Foundation. However, the foundation alone can&apos;t manage the whole thing, free
                         of state partnership and cooperation. With the state involvement: Rwanda National Police,
                         National Institute of Statistics, MINICOFIN etc, We think it would help Street Bridge and
                         maybe, other organisations with similar motives to emerge, get access to information, man

@@ -21,7 +21,7 @@ const Footer = () => {
                 </section>
                 <section>
                     <img src="/svg/bigLogo.svg" alt="Big Footer Logo" /> <br />
-                    <small className="gray">Created by <a href="https://aime-cyuzuzo.vercel.app" target="_blank" style={{textDecoration:"underline"}}>aimecyuzuzo5@gmail.com</a></small>
+                    <small className="gray">Created by <a href="https://aime-cyuzuzo.vercel.app" rel="noreferrer" target="_blank" style={{textDecoration:"underline"}}>aimecyuzuzo5@gmail.com</a></small>
                 </section>
             </div>
         </footer>
