@@ -6,7 +6,7 @@ const NavBar = () => {
             <header>
                 <nav>
                     <section className="headerSectionOne">
-                        <span className="green">Street</span> <span className="green">B</span>ridge <br /> <span className="green">F</span><span className="white">oundation</span>
+                        <span className="green">S</span><span className="white">treet</span> <span className="green">B</span><span className="white">ridge</span> <br /> <span className="green">F</span><span className="white">oundation</span>
                     </section>
                     <section className="headerSectionTwo">
                         <ul>

@@ -1,9 +1,13 @@
+import Home from ".";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 const About = () => {
     return ( 
         <div>
+            <div>
+                <Home><title>SBF | About</title></Home>
+            </div>
             <NavBar />
                 <div className="navBackground"></div>
 

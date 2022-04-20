@@ -2,10 +2,14 @@ import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import Link from 'next/dist/client/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div>
+      <div>
+        <Head><title>SBF | Home</title></Head>
+      </div>
       <NavBar />
       <div className="videoBackgroundDivision">
         <video src="/alanwalkerparadise.mp4" autoPlay muted loop></video>

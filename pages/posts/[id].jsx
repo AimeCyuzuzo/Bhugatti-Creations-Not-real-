@@ -1,10 +1,15 @@
 import NavBar from "../../components/NavBar"
 import Footer from "../../components/Footer"
+import { Head } from "next/document";
 
 const PostDetails = () => {
     return ( 
         <>
+            <div>
+                <Head><title>Post slug</title></Head>
+            </div>
                 <NavBar />
+
             <div className="blogParent">
                 <div className="navBackground"></div>
                 <div className="headers">
