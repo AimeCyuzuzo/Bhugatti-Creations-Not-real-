@@ -25,7 +25,7 @@ export default function Home() {
       
       <div className="nextHomeContent">
         <div className="aboutDivision" id='about'>
-          <h1 className='green'>About</h1>
+          <h1 className='strongGreen'>About</h1>
           <div className="aboutSections">
             <section className='aboutSectionOne'>
               <p>
@@ -51,11 +51,11 @@ export default function Home() {
               <h3><i>Who are Isomo Scholars?</i></h3>
               <p>Isomo scholars are the students who attended <strong>Isomo Academy</strong></p>
               <p>
-                <strong>Isomo Academy</strong> is an intensive English training and college prep program designed to equip Rwanda&apos;s top high school students with the
+                <span className='bold'>Isomo Academy</span> is an intensive English training and college prep program designed to equip Rwanda&apos;s top high school students with the
                  skills they need to compete for university scholarships in and outside Rwanda.
                 </p>
                 <p>
-                  <span style={{fontWeight:"bolder"}}>Note:</span> <i>~If you are a senior four or level three students, <a href="#" style={{textDecoration:"underline"}}>click here</a> to check if the application is 
+                  <span className='bold'>Note:</span> <i>~If you are a senior four or level three students, <a href="#" style={{textDecoration:"underline"}}>click here</a> to check if the application is 
                   open, and apply for this amazing program program~</i>
                 </p>
                 <p><a href="https://www.bridge2rwanda.org/isomo-academy/" rel='noreferrer' style={{textDecoration:"underline"}}>Learn more</a></p>
