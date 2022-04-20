@@ -71,7 +71,7 @@ export default function Home() {
                 countries to compete and win international scholarships in the best universties around the world.
               </p>
               <p>
-                <span className="bold">B2R Career Services</span> Rwanda's premier talent placement provider committed to helping high capacity talent connect with the top employers and career opportunities in Rwanda and East Africa.
+                <span className="bold">B2R Career Services</span> Rwanda&apos;s premier talent placement provider committed to helping high capacity talent connect with the top employers and career opportunities in Rwanda and East Africa.
               </p>
               <p>
                 <span className="bold">B2R Farms</span> A program that provides training and career opportunities for talented university graduates
