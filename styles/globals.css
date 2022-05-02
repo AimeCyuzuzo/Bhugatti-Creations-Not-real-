@@ -7,9 +7,10 @@ body {
   background: rgb(22, 26, 38);
   background: white;
   background: rgba(28, 227, 167, 0.063);
+  overflow-x: hidden;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer !important;
   color: inherit;
   color: #1CE3A8;
@@ -94,7 +95,7 @@ header nav{
   text-transform: uppercase;
 }
 .headerSectionTwo ul li a:hover{
-  color: rgb(28, 227, 168);
+  color: #1CE3A8;
 }
 .menuIcon{
   font-size: 20px;
@@ -102,9 +103,9 @@ header nav{
   color: white;
 }
 .menuIcon:hover{
-  transform: scale(1.3);
+  transform: scale(1.8);
   cursor: pointer;
-  color: #8CC63E;
+  color: #1CE3A8;
 }
 .stickyMemberRequest{
   position: fixed;
@@ -135,17 +136,7 @@ header nav{
   text-align: center;
   z-index: -999;
 }
-.videoGradient{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0,0,0,0.3);
-  background: #8bc63e3f;
-  background: rgb(42, 47, 68);
-  background: rgba(42, 47, 68, 0.5);
-}
+
 .videoBackgroundDivision video{
   width: 100%;
 }
@@ -175,7 +166,6 @@ header nav{
 }
 .videoTopContent section div a{
   color: white;
-  text-decoration: none;
   font-size: 20px;
   border-radius: 10% 30%;
   background: #1CE3A8;
@@ -183,9 +173,10 @@ header nav{
   margin: 10% auto;
   padding: 10px;
   transition: 0.2s;
+  font-family: cursive !important;
 }
 .videoTopContent section div a:hover{
-  color: #8CC63E;
+  color: #1CE3A8;
   background: white;
 }
 
@@ -203,7 +194,7 @@ header nav{
 .nextHomeContent{
   /* grid-auto-rows: min-content; */
   position: absolute;
-  top: 100%;
+  top: 85%;
 }
 
 
@@ -423,12 +414,11 @@ header nav{
 
 footer{
   width: 100%;
-    padding: 1% 5%;/* 
+    padding: 1% 1%;/* 
     border: 1px solid rgb(199, 239, 227); */
   box-shadow: 3px 3px 20px rgb(22, 26, 38);
   background: rgb(22, 26, 38);
   color: white;
-  font-family: cambria;
 }
 #mainFooterDiv{
   display: flex;
@@ -444,7 +434,8 @@ footer{
   background: rgb(28, 227, 168);
   display: block;
   border-radius: 10px;
-  margin-top: -15px;
+  margin-top: -10px;
+  margin-bottom: 10%;
 }
 footer a{
   color: rgb(195, 195, 195);
@@ -452,12 +443,32 @@ footer a{
   position: relative;
   font-family: cambria;
 }
-.latestnews a::before, .usefullinks a::before{
-  content: url('../public/svg/footerlistbefore.svg');
-  position: absolute;
-  left: -10%;
-  top: 1%;
-  width: 20px;
+#mainFooterDiv{
+  background-color: red !important;
+}
+.latestnews a:hover{
+  color: white;
+  transform: rotate(15deg);
+}
+.footer h4{
+  margin-bottom: 2% !important ;
+}
+.footer div div section{
+  text-align: center;
+}
+.footerCreator{
+  text-align: center;
+}
+footer a:hover{
+  color: #1CE3A8;
+}
+.footernewsdiv{
+  box-shadow: 1px 1px 5px #1CE3A8;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.footernewsdiv:hover{
+  transform: scale(1.3) rotate(-10deg);
 }
 
 
@@ -476,7 +487,7 @@ footer a{
   top: 0;
   left: 0;
   right: 0;
-  height: 11%;
+  height: 52pt;
   background: rgb(22, 26, 38);
   z-index: -999;
 }
@@ -607,6 +618,14 @@ footer a{
   .singleQuestion{
     width: 70%;
     margin: 1% 0;
+  }
+}
+@media screen and(max-width: 576px) {
+  .headerSectionTwo{
+    background: red !important;
+  }
+  body{
+    margin: 30% !important;
   }
 }
 

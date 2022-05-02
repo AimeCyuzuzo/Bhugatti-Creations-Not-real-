@@ -11,16 +11,17 @@ const NavBar = () => {
                     <section className="headerSectionTwo">
                         <ul>
                             <li> <Link href="/">Home</Link> </li>
-                            <li> <Link href="#about">About</Link> </li>
-                            <li> <Link href="#"><a>Events</a></Link> </li>
+                            <li> <Link href="/about">About</Link> </li>
+                            <li> <Link href="/posts/events"><a>Events</a></Link> </li>
                             {/* <li> <Link href="#">ADMINISTRATION</Link> </li> */}
                             <li>
-                                <div className="menuIcon">
-                                    &#9776;
-                                </div>
                             </li>
                         </ul>
+
                     </section>
+                    <div className="menuIcon">
+                        &#9776;
+                    </div>
                 </nav>
                 <div className="stickyMemberRequest">Become a member</div>
             </header>

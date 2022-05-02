@@ -85,6 +85,53 @@ export default function Home() {
               
           </div>
         </div>
+        
+        <div className="latestEvents">
+          <h2 className="strongGreen" style={{
+          }}>Latest Events</h2>
+          <div className="eventsBoxes">
+            <div className='singleEvent'>
+              <Link href="/posts/:id" style={{cursor:"pointer"}}>
+                <a>
+                  <h4 className="eventTitle">Visiting Nyanza Memorial Site in Kicukiro</h4>
+                  <div className="eventContent">
+                    <section className='eventContentOne'>
+                      <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
+                        sit amet and then it is a good idea brother was there too. Wow.
+                      </p>
+                      <small><i>Uploaded on 20 Marth 2020</i></small>
+                    </section>
+                    <section className='eventContentTwo'>
+                      <div className="eventImageContainer">
+                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
+                      </div>
+                    </section>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className='singleEvent'>
+              <Link href="/posts/:id" style={{cursor:"pointer"}}>
+                <a>
+                  <h4 className="eventTitle">Heart of Gratitude</h4>
+                  <div className="eventContent">
+                    <section className='eventContentOne'>
+                      <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
+                        sit amet and then it is a good idea brother was there too. Wow.
+                      </p>
+                      <small><i>Uploaded on 20 Marth 2020</i></small>
+                    </section>
+                    <section className='eventContentTwo'>
+                      <div className="eventImageContainer">
+                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
+                      </div>
+                    </section>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className="administration">
           <h2 style={{textAlign:"center"}} className="strongGreen">Administration members</h2>
           <div className="administrationBoxes">
@@ -208,52 +255,6 @@ export default function Home() {
                   <small>Rwanda - +250784104771</small>
                 </div>
               </section>
-            </div>
-          </div>
-        </div>
-        <div className="latestEvents">
-          <h2 className="strongGreen" style={{
-          }}>Latest Events</h2>
-          <div className="eventsBoxes">
-            <div className='singleEvent'>
-              <Link href="/posts/:id" style={{cursor:"pointer"}}>
-                <a>
-                  <h4 className="eventTitle">Visiting Nyanza Memorial Site in Kicukiro</h4>
-                  <div className="eventContent">
-                    <section className='eventContentOne'>
-                      <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
-                        sit amet and then it is a good idea brother was there too. Wow.
-                      </p>
-                      <small><i>Uploaded on 20 Marth 2020</i></small>
-                    </section>
-                    <section className='eventContentTwo'>
-                      <div className="eventImageContainer">
-                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
-                      </div>
-                    </section>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            <div className='singleEvent'>
-              <Link href="/posts/:id" style={{cursor:"pointer"}}>
-                <a>
-                  <h4 className="eventTitle">Heart of Gratitude</h4>
-                  <div className="eventContent">
-                    <section className='eventContentOne'>
-                      <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
-                        sit amet and then it is a good idea brother was there too. Wow.
-                      </p>
-                      <small><i>Uploaded on 20 Marth 2020</i></small>
-                    </section>
-                    <section className='eventContentTwo'>
-                      <div className="eventImageContainer">
-                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
-                      </div>
-                    </section>
-                  </div>
-                </a>
-              </Link>
             </div>
           </div>
         </div>

@@ -6,10 +6,9 @@ const PostDetails = () => {
     return ( 
         <>
             <div>
-                <Head><title>Post slug</title></Head>
+                
             </div>
                 <NavBar />
-
             <div className="blogParent">
                 <div className="navBackground"></div>
                 <div className="headers">
@@ -27,7 +26,6 @@ const PostDetails = () => {
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni modi lab
                                 ore ex totam aut maxime adipisci distinctio. Voluptatum adipisci veritatis
                             </p>
-                            <div className="blogContentFlexOne">
                             <p>
                                 , explicabo, vero exercitationem blanditiis minima vel esse, dignissimos e
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci atque 
@@ -37,10 +35,6 @@ const PostDetails = () => {
                                 tem incidunt mollitia molestias asperiores laborum id, iste consequatur, aut
                                 voluptatum doloribus quo voluptas doloremque et! Unde, esse vel. Voluptas? Lorem Ipsum dolor sit amet sit tu.
                             </p>
-                            <img src="/heartofgratitude/IMG_3880.JPG" alt="Image" />
-                            </div>
-                        </section>
-                        <section>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit 
                                 eligendi consectetur autem praesentium quos itaque eius tenetur, eum min
@@ -48,19 +42,15 @@ const PostDetails = () => {
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni modi lab
                                 ore ex totam aut maxime adipisci distinctio. Voluptatum adipisci veritatis
                             </p>
-                            <div className="blogContentFlexOne">
-                            <p>
-                                , explicabo, vero exercitationem blanditiis minima vel esse, dignissimos e
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci atque 
-                                totam deleniti sed repudiandae omnis tempora quas architecto quia quaerat l
-                                audantium, at eius porro, quis magnam? Illo dolore fuga labore.
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis volupta
-                                tem incidunt mollitia molestias asperiores laborum id, iste consequatur, aut
-                                voluptatum doloribus quo voluptas doloremque et! Unde, esse vel. Voluptas? Lorem Ipsum dolor sit amet sit tu.
-                            </p>
-                            <img src="/heartofgratitude/IMG_3880.JPG" alt="Image" />
+                        </section>
+                        <section className="container-fluid">
+                            <div className="row">
+                                <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                                    f
+                                </div>
                             </div>
-                        </section><section>
+                        </section>
+                        <section>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit 
                                 eligendi consectetur autem praesentium quos itaque eius tenetur, eum min

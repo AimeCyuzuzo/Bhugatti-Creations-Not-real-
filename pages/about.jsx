@@ -1,39 +1,45 @@
 import Home from ".";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import Link from "next/link";
+import Image from "next/image";
+
+
 
 const About = () => {
     return ( 
         <div>
-            <div>
-                <Home><title>SBF | About</title></Home>
-            </div>
             <NavBar />
                 <div className="navBackground"></div>
 
             <div className="aboutContent">
-              <h2>About</h2>
-                <h3 className="aboutHeading">Issue</h3>
-                    <p>
-                        Have you ever felt pity for your living conditions? ever felt hopelessly helpless for no one
-                        really cares about your condition? or maybe, ever been at that bliss close to losing meaning to
-                        your own life? If yes, then you were living the life of many young children in my country
-                        today, Rwanda.<br />
-                        Reference from UNICEF May, 2021 report, it is estimated that there are about 7,000 street
-                        children around the country while close to 300,000 live in families where a minor is the head
-                        of the household. <br />
-                        In big cities like Kigali, Rubavu, and Musanze among others, it is even worse, since around
-                        3000 of them are young girls aged below 15years. <br />
-                        In fact, the 7000 in Rwanda have endlessly suffered a life without a hope for a better
-                        tomorrow, but just struggles for survival; no school, no clothes, no sanitaries or even other
-                        essentials of life like shelter. <br />
-                        In this analysis, I will use the records of Street Bridge Foundation, a newly formed
-                        non-governmental youth led initiative mandated to addressing the street kids’ challenges, and
-                        as well as the City of Kigali as a case study to explore a plethora of long term sustainable and
-                        non-retributive solutions to addressing the issue in concern; while protecting the interests of
-                        all the problem stakeholders as well. 
-                    </p>
-                <h3 className="aboutHeading">Analysis</h3>
+              <h1>About us</h1>
+                <div>
+                    <div>
+                        <img src="/communitywork/recroped.jpeg" width="100%" alt="SBF Members" /> <br />
+                        <small className="gray">Members of Street Bridge Foundation</small>
+                    </div> <br />
+                    <h3 className="aboutHeading">Issue</h3>
+                        <p>
+                            Have you ever felt pity for your living conditions? ever felt hopelessly helpless for no one
+                            really cares about your condition? or maybe, ever been at that bliss close to losing meaning to
+                            your own life? If yes, then you were living the life of many young children in my country
+                            today, Rwanda.<br />
+                            Reference from UNICEF May, 2021 report, it is estimated that there are about 7,000 street
+                            children around the country while close to 300,000 live in families where a minor is the head
+                            of the household. <br />
+                            In big cities like Kigali, Rubavu, and Musanze among others, it is even worse, since around
+                            3000 of them are young girls aged below 15years. <br />
+                            In fact, the 7000 in Rwanda have endlessly suffered a life without a hope for a better
+                            tomorrow, but just struggles for survival; no school, no clothes, no sanitaries or even other
+                            essentials of life like shelter. <br />
+                            In this analysis, I will use the records of Street Bridge Foundation, a newly formed
+                            non-governmental youth led initiative mandated to addressing the street kids’ challenges, and
+                            as well as the City of Kigali as a case study to explore a plethora of long term sustainable and
+                            non-retributive solutions to addressing the issue in concern; while protecting the interests of
+                            all the problem stakeholders as well. 
+                        </p>
+                    <h3 className="aboutHeading">Analysis</h3>
                     <p>
                         In 2015, President Paul Kagame raised alarm upon the issue. Undoubtedly, the city
                         authorities together with the security officials responded by dentaining them (street kids), and
@@ -65,6 +71,7 @@ const About = () => {
                         school tuition was to be paid, it doesn’t stop the domestic violence, hunger and other family
                         problems which a kid is seeking refuge from.
                     </p>
+                </div>
                 <h3 className="aboutHeading">Proposal</h3>
                     <p>
                         From our four community-based projects done so far, Street Bride Foundation has gone a
@@ -122,7 +129,32 @@ const About = () => {
                         innovative solutions to addressing the issue in concern.
             </div>
 
-
+            <div>
+                <div className="latestEvents">
+                    <div className="eventsBoxes">
+                        <div className='singleEvent'>
+                            <Link href="/posts/:id" style={{cursor:"pointer"}}>
+                                <a>
+                                <h4 className="eventTitle">Visiting Nyanza Memorial Site in Kicukiro</h4>
+                                <div className="eventContent">
+                                    <section className='eventContentOne'>
+                                    <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
+                                        sit amet and then it is a good idea brother was there too. Wow.
+                                    </p>
+                                    <small><i>Uploaded on 20 Marth 2020</i></small>
+                                    </section>
+                                    <section className='eventContentTwo'>
+                                    <div className="eventImageContainer">
+                                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
+                                    </div>
+                                    </section>
+                                </div>
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
             <Footer />
