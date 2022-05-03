@@ -4,12 +4,37 @@ import Link from 'next/dist/client/link'
 import Image from 'next/image'
 import Head from 'next/head'
 
-export default function Home() {
+import { createClient } from 'contentful'
+
+export async function getStaticProps(){
+
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY, 
+  });
+
+
+  const res = await client.getEntries({
+    content_type: 'sbfPosts',
+  })
+
+  return {
+    props:{
+      posts: res.items
+    }
+  }
+
+
+}
+
+
+
+
+
+export default function Home({posts}) {
+  console.log(posts);
   return (
     <div>
-      <div>
-        <Head><title>SBF | Home</title></Head>
-      </div>
       <NavBar />
       <div className="videoBackgroundDivision">
         <video src="/alanwalkerparadise.mp4" autoPlay muted loop></video>
@@ -90,30 +115,34 @@ export default function Home() {
           <h2 className="strongGreen" style={{
           }}>Latest Events</h2>
           <div className="eventsBoxes">
-            <div className='singleEvent'>
+
+            {posts.map (post =>(
+              <div className="singleEvent">
+                <Link href="/posts/:id" style={{cursor:"pointer"}}>
+                  <a>
+                    <h4 className="eventTitle">
+                      {post.fields.title}
+                    </h4>
+                    <div className="eventContent">
+                      <section className="eventContentOne">
+                        <p>
+                          
+                        </p>
+                      </section>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            ))}
+            
+            
+
+
+
+            <div className='singleEvent'>heLLO
               <Link href="/posts/:id" style={{cursor:"pointer"}}>
                 <a>
                   <h4 className="eventTitle">Visiting Nyanza Memorial Site in Kicukiro</h4>
-                  <div className="eventContent">
-                    <section className='eventContentOne'>
-                      <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
-                        sit amet and then it is a good idea brother was there too. Wow.
-                      </p>
-                      <small><i>Uploaded on 20 Marth 2020</i></small>
-                    </section>
-                    <section className='eventContentTwo'>
-                      <div className="eventImageContainer">
-                        <Image src="/communitywork/recroped.jpeg" alt="Event image" width="100%" height="70%" />
-                      </div>
-                    </section>
-                  </div>
-                </a>
-              </Link>
-            </div>
-            <div className='singleEvent'>
-              <Link href="/posts/:id" style={{cursor:"pointer"}}>
-                <a>
-                  <h4 className="eventTitle">Heart of Gratitude</h4>
                   <div className="eventContent">
                     <section className='eventContentOne'>
                       <p>We visited the memorial site to clean it and make it ready for the testimonial activities. It was a general activity, anyone who wanted to help helped us. Lorem ipsum dolor sit amet, concepteu
@@ -286,6 +315,7 @@ export default function Home() {
         </div>
         <Footer />
       </div>
+
     </div>
   )
 }

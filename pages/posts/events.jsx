@@ -17,7 +17,13 @@ const Events = () => {
                                 <div className="container-fluid">
                                     <div className="row">
                                         <section className="col-xl 3 col-lg-3 col-md-4 col-sm-5 col-5">
-                                            <img src="/admins/"  />
+                                            <img src="/admins/gikundiroelvira.jpg" width="100%" height="100%" />
+                                        </section>
+                                        <section className="col-xl-9 col-lg-9 col-md-8 col-sm-8 col-8">
+                                            <h5>The blood-giving activity</h5>
+                                            <p>
+                                                
+                                            </p>
                                         </section>
                                     </div>
                                 </div>
